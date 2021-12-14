@@ -22,7 +22,6 @@ const multiplyFour = multiplyX(4);
 // => x * 2
 // => (x * 2) * 3
 // => ((x * 2) * 3) + 4
-
 const equation = (a, b, c) => x => ((x * a) * b) + c;
 const formula = equation(2, 3, 4);
 const x = 2;
@@ -43,4 +42,3 @@ const formula = x => addFour(multiplyThree(multiplyTwo(x)));
 
 // => ((x + 4) * 3) * 2
 const formulaB = x => multiplyTwo(multiplyThree(addFour(x)));
-

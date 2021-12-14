@@ -12,7 +12,9 @@ import React from 'react';
 //import MyComponent from './03/ForceUpdateExampleApp';
 //import MyComponent from './03/LifecycleExampleApp';
 //import MyComponent from './03/CounterExample';
-import MyComponent from './03/ListExample';
+//import MyComponent from './03/ListExample';
+import MyComponent from './06/HomePageComponent';
+
 
 class App extends React.Component {
   render() {
